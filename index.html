@@ -7,7 +7,15 @@
   <title>Chirag Patil | Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <body>
   <header>
     <div class="header-content">
@@ -23,12 +31,12 @@
   </header>
 
   <main>
-    <section id="about">
+    <section id="about" data-aos="fade-up">
       <h2>About Me</h2>
       <p>I'm a graduate student at Virginia Tech (MS in Computer Engineering, GPA 3.96/4.0), with strong interests in AI/ML, distributed systems, and computer vision. I specialize in deep learning, vision transformers, and building scalable pipelines using Apache Spark, FastAPI, and AWS. My research at the SANGHANI Center focuses on fine-tuning GroundingDINO and Segment Anything models to segment root cell layers from confocal images and hyperspectral datasets.</p>
     </section>
 
-    <section id="skills">
+    <section id="skills" data-aos="fade-right">
       <h2>Technical Skills</h2>
       <div class="skills">
         <div>Python</div>
@@ -57,7 +65,7 @@
     </section>
     
 
-    <section id="projects">
+    <section id="projects" data-aos="fade-up">
       <h2>Highlighted Projects</h2>
       <div class="project">
         <h3>Root Cell Layer Segmentation</h3>
@@ -81,13 +89,13 @@
       </div>
     </section>
 
-    <section id="resume">
+    <section id="resume" data-aos="zoom-in">
       <h2>Resume</h2>
       <p>You can view or download my detailed resume below:</p>
       <a href="assets/resume/resume.pdf" target="_blank" class="button">View Resume (PDF)</a>
     </section>
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:chiragpatil@vt.edu">chiragpatil@vt.edu</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/chirag-patil-4589621b3/" target="_blank">linkedin.com/in/chirag-patil-4589621b3</a></p>
