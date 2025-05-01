@@ -548,10 +548,19 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/* .hero-blob {
+  flex: 1 1 40%;
+  max-width: 300px;
+} */
+
 .hero-blob {
   flex: 1 1 40%;
   max-width: 300px;
+  position: relative;
+  z-index: 1;
 }
+
+
 
 .hero-blob svg {
   width: 100%;
@@ -779,9 +788,16 @@ footer {
     gap: 2rem;
   }
 
+  /* .hero-text {
+    align-items: center;
+  } */
+
   .hero-text {
     align-items: center;
+    position: relative;
+    z-index: 2;
   }
+
 
   .hero-text h1 {
     font-size: 2rem;
