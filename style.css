@@ -553,12 +553,9 @@ body {
   max-width: 300px;
 }
 
-.hero-img {
+.hero-blob svg {
   width: 100%;
-  max-width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: auto;
 }
 
 .hero nav {
@@ -585,14 +582,6 @@ body {
 
 .hero nav a:hover::after {
   width: 100%;
-}
-
-.hero-img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
