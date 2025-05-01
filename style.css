@@ -569,8 +569,15 @@ body {
 }
 
 .hero nav {
+  /* text-align: center;
+  padding-top: 1rem; */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   text-align: center;
-  padding-top: 1rem;
 }
 
 .hero nav a {
@@ -816,4 +823,25 @@ footer {
     display: inline-block;
     margin: 0.5rem;
   }
+
+  #about {
+    background-color: #ffffff;
+  }
+
+  #skills {
+    background-color: #f0f0f0;
+  }
+
+  #projects {
+    background-color: #ffffff;
+  }
+
+  #resume {
+    background-color: #f0f0f0;
+  }
+
+  #contact {
+    background-color: #ffffff;
+  }
+
 }
