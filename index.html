@@ -1,6 +1,6 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+{% comment %} <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -120,6 +120,126 @@
     AOS.init();
   </script>
 
+  <script src="script.js"></script>
+</body>
+</html> {% endcomment %}
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chirag Patil | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Chirag Patil</h1>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>I'm a graduate student at Virginia Tech (MS in Computer Engineering, GPA 3.96/4.0), with strong interests in AI/ML, distributed systems, and computer vision. I specialize in deep learning, vision transformers, and building scalable pipelines using Apache Spark, FastAPI, and AWS. My research at the SANGHANI Center focuses on fine-tuning GroundingDINO and Segment Anything models to segment root cell layers from confocal images and hyperspectral datasets.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-right">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div>Python</div>
+        <div>JavaScript</div>
+        <div>SQL</div>
+        <div>C++</div>
+        <div>HTML/CSS</div>
+        <div>PyTorch</div>
+        <div>TensorFlow</div>
+        <div>JAX</div>
+        <div>scikit-learn</div>
+        <div>OpenCV</div>
+        <div>MySQL</div>
+        <div>PostgreSQL</div>
+        <div>Django</div>
+        <div>Flask</div>
+        <div>FastAPI</div>
+        <div>React</div>
+        <div>Node.js</div>
+        <div>Apache Spark</div>
+        <div>Docker</div>
+        <div>Kubernetes</div>
+        <div>AWS</div>
+        <div>Git</div>
+      </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2>Highlighted Projects</h2>
+      <div class="project">
+        <h3>Root Cell Layer Segmentation</h3>
+        <p>Fine-tuned GroundingDINO with microSAM for accurate segmentation of root structures from confocal images, improving detection and precision by 20–30%.</p>
+        <a class="button" href="#">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Stock Portfolio Manager</h3>
+        <p>Deployed a secure Django-based system on AWS using Docker & Kubernetes. Enabled JWT-based Google OAuth, real-time stock tracking via Celery/Redis, and secure user notification using SMTP.</p>
+        <a class="button" href="https://github.com/chiragpatil99/-Portfolio-Management-System">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Brain Tumor Segmentation (U-Net)</h3>
+        <p>Used U-Net and YOLOv9 models for multimodal MRI segmentation. Preprocessing, model training, and comparative performance evaluation done using BraTS dataset.</p>
+        <a class="button" href="https://github.com/chiragpatil99/Brain-Tumor-Semantic-Segmentation-Using-Deep-Learning">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Soil Type Classification</h3>
+        <p>Built CNN and image processing pipelines to classify soil samples, achieving 15% improvement over traditional ML methods.</p>
+        <a class="button" href="https://github.com/chiragpatil99/Soil-Classification-using-Machine-Learning">GitHub</a>
+      </div>
+    </section>
+
+    <section id="resume" data-aos="zoom-in">
+      <h2>Resume</h2>
+      <p>You can view or download my detailed resume below:</p>
+      <a href="assets/resume/resume.pdf" target="_blank" class="button">View Resume (PDF)</a>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:chiragpatil@vt.edu">chiragpatil@vt.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/chirag-patil-4589621b3/" target="_blank">linkedin.com/in/chirag-patil-4589621b3</a></p>
+      <p>GitHub: <a href="https://github.com/chiragpatil99" target="_blank">github.com/chiragpatil99</a></p>
+      <p>Research Profile: <a href="https://sanghani.cs.vt.edu/people/our-team/students/chirag-vijay-patil.html" target="_blank">Sanghani Center @ VT</a></p>
+
+      <form action="https://formspree.io/f/xblodbzd" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chirag Patil</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
