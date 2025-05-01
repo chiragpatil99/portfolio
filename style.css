@@ -222,29 +222,14 @@ h2 {
   text-align: center;
 }
 
-/* .skills div {
+.skills div {
   padding: 0.75rem 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
   font-weight: bold;
-} */
-
-.skills div {
-  padding: 0.75rem 1rem;
-  border-radius: 5px;
-  background-color: #f2e9e9;
-  color: #010d0b;
-  font-weight: bold;
-  box-shadow: 0 0 10px #c7d4d2, 0 0 20px #00ffcc;
-  text-shadow: 0 0 8px #a7bab6;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skills div:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #a7bab6, 0 0 30px #99b6b0;
-}
 
 
 .button {
