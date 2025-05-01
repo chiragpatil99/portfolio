@@ -96,58 +96,11 @@ body {
   z-index: 1;
 }
 
-
-
 .hero-blob svg {
   width: 100%;
   height: auto;
   max-height: 300px;
 }
-
-/* .hero nav {
-  text-align: center;
-  padding-top: 1rem;
-  position: sticky;
-  top: 0;
-  background: white;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-} */
-
-/* .hero nav {
-  text-align: center;
-  padding-top: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.hero nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 600;
-  position: relative;
-}
-
-.hero nav a::after {
-  content: '';
-  display: block;
-  height: 2px;
-  background: #1a1a1a;
-  transition: width 0.3s;
-  width: 0;
-}
-
-.hero nav a:hover::after {
-  width: 100%;
-} */
-
-
 
 header {
   background: #1a1a1a;
