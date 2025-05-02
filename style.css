@@ -14,90 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-/* .sticky-nav {
-  text-align: center;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.sticky-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 600;
-  position: relative;
-}
-
-.sticky-nav a::after {
-  content: '';
-  display: block;
-  height: 2px;
-  background: #1a1a1a;
-  transition: width 0.3s;
-  width: 0;
-}
-
-.sticky-nav a:hover::after {
-  width: 100%;
-} */
-
-/* .sticky-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 2rem;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.nav-left .nav-logo {
-  /* height: 40px; */
-/* height: 50px; */
-/* Increase/decrease for size */
-/* width: auto; */
-/* Maintain aspect ratio */
-/* } */
-
-/* .nav-links {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 600;
-  position: relative;
-}
-
-.nav-links a::after {
-  content: '';
-  display: block;
-  height: 2px;
-  background: #1a1a1a;
-  transition: width 0.3s;
-  width: 0;
-}
-
-.nav-links a:hover::after {
-  width: 100%;
-} */
-
-
-
-
 .sticky-nav {
   display: flex;
   align-items: center;
@@ -466,12 +382,3 @@ footer {
   }
 
 }
-
-/* <nav class="sticky-nav">
-    <img src="assets/images/Name_CP.png" alt="Chirag Patil Logo" class="nav-logo">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </nav> */
